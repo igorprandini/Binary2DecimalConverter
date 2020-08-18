@@ -51,7 +51,7 @@ export const Section = styled.section`
     h1 {
         text-align: center;
         font-size: 3em;
-        color: var(--colorFontPrimary);
+        color: var(--colorFontPrimaryDark);
         font-weight: 300;
         cursor: default;
 
@@ -62,7 +62,7 @@ export const Section = styled.section`
 
     p {
         font-size: 1.8em;
-        color: var(--colorFontSilver);
+        color: var(--colorFontSecundaryDark);
         font-weight: 200;
         text-align: center;
         cursor: default;
@@ -70,7 +70,7 @@ export const Section = styled.section`
 
     span {
         font-size: 1.3em;
-        color: var(--colorFontSilver);
+        color: var(--colorFontSecundaryDark);
         font-weight: 300;
         text-align: center;
         cursor: default;

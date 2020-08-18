@@ -19,11 +19,19 @@ function App() {
         return;
       }
 
-      setConvertedValue(parseInt(inputValue, 2))
-      
+      if(inputValue.length <= 8) {
+
+        setConvertedValue(parseInt(inputValue, 2));
+
+      } else {
+        setError(true);
+        setErrorAlert('Maximum 8 digits');
+        return;
+      }      
     } else {
       setError(!error);
       setErrorAlert('Value not found.');
+      return;
     }
   }
 

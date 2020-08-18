@@ -2,7 +2,7 @@
 
 Idea from [here](https://github.com/florinpop17/app-ideas)
 
-**Demo**: [here](https://codesandbox.io/s/elated-hugle-3zb8s?file=/package.json)
+**Demo**: [here](https://codesandbox.io/s/elated-hugle-3zb8s?fontsize=14&hidenavigation=1&theme=dark)
 
 **Tier:** 1-Beginner
 
